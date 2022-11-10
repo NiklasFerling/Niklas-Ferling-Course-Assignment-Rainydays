@@ -46,3 +46,9 @@ form div {
 form div > * {
     flex: 1;
 }
+
+@media (max-width: 930px) {
+    form div {
+        flex-direction: column;
+    }
+}

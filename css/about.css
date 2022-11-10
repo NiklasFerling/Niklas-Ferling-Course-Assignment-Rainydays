@@ -44,8 +44,9 @@
 /*Media Queries*/
 
 @media (max-width: 600px) {
+
     .about {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .about > a {

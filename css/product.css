@@ -1,10 +1,10 @@
 .product {
     display: flex;
     max-width: 60%;
-    max-height: 530px;
     margin: 80px auto;
     justify-content: space-between;
     gap: 32px;
+    align-items: center;
 }
 
 .product div:first-child {
@@ -44,8 +44,16 @@ h2 {
     margin-bottom: 24px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 931px){
     .product {
         max-width: 80%;
     }
+}
+
+@media (max-width: 930px) {
+
+    .product {
+        flex-direction: column;
+    }
+
 }

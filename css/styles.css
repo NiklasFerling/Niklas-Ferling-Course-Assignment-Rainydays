@@ -133,6 +133,7 @@ header label:hover {
 nav ul {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-column: 1 / span 2;
     gap: 32px;
     width: auto;
     padding: 0;
