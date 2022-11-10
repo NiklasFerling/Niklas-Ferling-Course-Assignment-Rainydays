@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Checkout on your order" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainydays | Checkout</title>
+    <link href="../css/styles.css" rel="stylesheet" />   
+    <link href="../css/checkout.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4c69c38b68.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <main>
+        <div class="logo"><a href="index.html"><img src="../assets/Graphics/RainyDays_Logo1.png" alt="Rainydays-logo"/></a></div>
+        <h2>Checkout</h2>
+        <form class="container">
+            <section class="form">
+                <div>
+                    <h3>Contact</h3>
+                    <input type="text" name="email" id="email" placeholder="Email address *" required/>
+                    <input type="tel" name="tlf" id="tlf" placeholder="Phone"/>
+                </div>
+                <div>
+                    <h3>Shipping</h3>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="First name *" required>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last name *"required/>
+                    </div>
+                    <div>
+                        <input type="text" name="city" id="city" placeholder="City *" required/>
+                        <input type="text" name="zip" id="zip" placeholder="ZIP *" required/>
+                    </div>
+                    <input type="text" name="country" id="country" placeholder="Country *" required/>
+                    <h4>Shipping Method</h4>
+                    <div class="shipping-method">
+                        <input type="radio" name="shipping_method" id="standard" value="standard" checked/>
+                        <label for="standard">
+                            <p>Standard</p>
+                            <p>1-3 business days</p>
+                        </label>
+                        <p>Free</p>
+                    </div>
+                    <div class="shipping-method">
+                        <input type="radio" name="shipping_method" id="express" value="express"/>
+                        <label for="express">
+                            <p>Express</p>
+                            <p>Arrive by tomorrow</p>
+                        </label>
+                        <p>€35</p>
+                    </div>
+                </div>
+            </section>
+            <section class="summary">
+                    <h3>Order Summary</h3>
+                    <div class="card">
+                        <div class="card-img"><img src="../assets/Products/RainyDays_Jacket1.png" alt="All-Weather Jacket product photo"/></div>
+                        <div>
+                            <p>All-Weather Jacket</p>
+                            <p>€169</p>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <p>Subtotal</p>
+                        <p>€169</p>
+                    </div>
+                    <div class="total">
+                        <p>Shipping</p>
+                        <p>€0,00</p>
+                    </div>
+                    <hr class="solid"/>
+                    <div class="total">
+                        <p>Total</p>
+                        <p>€169</p>
+                    </div>
+                    <a href="checkout-success.html"><input type="submit" value="Submit" class="cta"/></a>
+            </section>
+        </form class="container">
+    </main>
+    
+</body>
+</html>

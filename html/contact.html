@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Contact us in this form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainydays | Contact</title>
+    <link href="../css/styles.css" rel="stylesheet" />   
+    <link href="../css/contact.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4c69c38b68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../assets/Graphics/RainyDays_Logo1.png" alt="Rainydays-logo"/></a>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact</h1>
+            <form method="get">
+                <input type="text" name="reason" id="reason" placeholder="Reason *" required/>
+                <div>
+                    <input type="text" name="name" id="name" placeholder="First name *" required/>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last name *" required/>
+                </div>
+                <input type="text" name="ordernr" id="ordernr" placeholder="Order number"/>
+                <input type="text" name="email" id="email" placeholder="Email address *" required/>
+                <input type="tel" name="tlf" id="tlf" placeholder="Phone"/>
+                <input type="text" name="country" id="country" placeholder="Country *" required/>
+                <textarea name="message" id="message" placeholder="Message *" required></textarea>
+                <a href="feedback-success.html"><input type="submit" value="Submit" class="cta"/></a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Contact Support</h4>
+            <p>Email: support@rainydays.com</p>
+            <p>Phone: +99 999 99 999</p>
+        </div>
+        <div class="icons">
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

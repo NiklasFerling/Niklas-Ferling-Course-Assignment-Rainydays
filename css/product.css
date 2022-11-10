@@ -1,0 +1,51 @@
+.product {
+    display: flex;
+    max-width: 60%;
+    max-height: 530px;
+    margin: 80px auto;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.product div:first-child {
+    max-width: 420px;
+    flex: 1;
+}
+
+.product div:nth-child(2) {
+    flex: 2;
+}
+
+
+.product img {
+    background-color: #a3a3a3;
+}
+
+.product-info {
+    max-width: 60%;
+    margin: 0 auto 52px;
+}
+
+.product-info p {
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.shipping-info {
+    background-color: #dadada;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 1200px) {
+    .product {
+        max-width: 80%;
+    }
+}
