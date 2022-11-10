@@ -116,6 +116,7 @@ input[type="submit"] {
 @media (max-width: 930px) {
     .container {
         flex-direction: column;
+        max-width: 80%;
     }
 
     .details {
