@@ -51,4 +51,8 @@ form div > * {
     form div {
         flex-direction: column;
     }
+
+    main section {
+        max-width: 80%;
+    }
 }

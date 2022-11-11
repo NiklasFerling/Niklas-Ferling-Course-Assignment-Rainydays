@@ -3,7 +3,7 @@
     background-image: url(../assets/Images/couple-trekking-through-rain-highlands1.jpg);
     min-height: 93vh;
     background-position: bottom;
-    color: #053541;
+    color: #fff;
 }
 
 .hero div {
@@ -11,7 +11,6 @@
     padding: 80px 0;
     border-radius: 100px;
     font-size: 40px;
-    filter: drop-shadow(0px 0px 20px rgb(255 255 255));
 }
 
 .sections {
@@ -81,6 +80,10 @@
     max-width: 602px;
 }
 
+.info a {    
+    margin-bottom: 80px;
+}
+
 footer {
     margin: 0;
 }
@@ -102,5 +105,9 @@ footer {
     .cta {
         font-size: 16px;
         padding: 16px 32px;
+    }
+
+    .hero div {
+        text-align: center;
     }
 }
