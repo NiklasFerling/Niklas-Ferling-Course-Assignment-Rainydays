@@ -202,7 +202,7 @@ footer > * {
     }
 }
 
-@media (min-width:601px) and (max-width: 700px) {
+@media (max-width: 700px) {
 
     header label {
         display: block;
