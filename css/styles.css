@@ -217,6 +217,7 @@ footer > * {
 
     nav ul {        
         margin-left: 0;
+        gap: 0px;
     }
 
     header #menu-checkbox:checked ~ nav {
