@@ -132,6 +132,10 @@ header label:hover {
     cursor: pointer;
 }
 
+span.hidden {
+    display: none;
+}
+
 nav ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
