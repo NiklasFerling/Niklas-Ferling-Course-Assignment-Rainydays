@@ -36,13 +36,6 @@ In the breaf there were a few pages and elements listed:
 git clone https://github.com/NiklasFerling/Niklas-Ferling-Course-Assignment-Rainydays.git
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
-
-
 ## Contact
 
 Mail adress: niklas.ferling@gmail.com
