@@ -1,7 +1,7 @@
 # Niklas-Ferling-Course-Assignment-Rainydays
 My course assignment project for HTML & CSS
 
-# Your project title
+# Cross Course Project
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
