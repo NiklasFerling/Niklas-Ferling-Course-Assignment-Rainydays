@@ -9,7 +9,6 @@ This is a cross-course project focusing on design, HTML and CSS
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
 This project was given after seperate courses in design and HTML & CSS. We were tasked with designing the website of a mock company selling outdoor wear.
 In the breaf there were a few pages and elements listed:
 
