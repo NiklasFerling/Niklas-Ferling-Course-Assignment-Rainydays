@@ -3,8 +3,6 @@ My course assignment project for HTML & CSS
 
 # Cross Course Project
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
 This is a cross-course project focusing on design, HTML and CSS
 
 ## Description
